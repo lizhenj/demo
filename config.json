@@ -1,0 +1,5 @@
+{
+    "gamedb":"root:JMqs5555@tcp(localhost:3306)/test",
+    "logDir":"./rizhi",
+    "ginIpaddress": "0.0.0.0:8080"
+}

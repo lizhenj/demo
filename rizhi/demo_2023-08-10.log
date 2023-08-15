@@ -1,0 +1,86 @@
+2023-08-10 10:10:24 INFO [demo/main.go:39] -map[gamedb:rootJMqs5555@tcp(localhost:3306)test logDir:./rizhi]
+2023-08-10 10:10:24 INFO [demo/main.go:40] -测试测试再次
+2023-08-10 10:10:24 ERROR [demo/main.go:41] -再次测试错误，是否正确运行
+2023-08-10 10:10:24 INFO [demo/main.go:24] -invalid DSN: missing the slash separating the database name
+goroutine 1 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x65
+main.main.func1()
+	/root/gowork/src/demo/main.go:24 +0x3d
+panic({0x5fda80, 0xc000092820})
+	/usr/local/go/src/runtime/panic.go:838 +0x207
+demo/database1.Initdb({0xc00009a240?, 0x7?})
+	/root/gowork/src/demo/database1/gamedb.go:15 +0xff
+main.main()
+	/root/gowork/src/demo/main.go:43 +0x2c5
+
+2023-08-10 10:11:12 INFO [demo/main.go:39] -map[gamedb:rootJMqs5555@tcp(localhost:3306)test logDir:./rizhi]
+2023-08-10 10:11:12 INFO [demo/main.go:40] -测试测试再次
+2023-08-10 10:11:12 ERROR [demo/main.go:41] -再次测试错误，是否正确运行
+2023-08-10 10:11:12 INFO [demo/main.go:24] -invalid DSN: missing the slash separating the database name
+goroutine 1 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x65
+main.main.func1()
+	/root/gowork/src/demo/main.go:24 +0x3d
+panic({0x5fda80, 0xc000092820})
+	/usr/local/go/src/runtime/panic.go:838 +0x207
+demo/database1.Initdb({0xc00009a240, 0x24})
+	/root/gowork/src/demo/database1/gamedb.go:16 +0x15f
+main.main()
+	/root/gowork/src/demo/main.go:43 +0x2c5
+
+2023-08-10 10:12:50 INFO [demo/main.go:39] -map[gamedb:rootJMqs5555@tcp(localhost:3306)test logDir:./rizhi]
+2023-08-10 10:12:50 INFO [demo/main.go:40] -测试测试再次
+2023-08-10 10:12:50 ERROR [demo/main.go:41] -再次测试错误，是否正确运行
+2023-08-10 10:12:50 INFO [demo/main.go:24] -invalid DSN: missing the slash separating the database name
+goroutine 1 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x65
+main.main.func1()
+	/root/gowork/src/demo/main.go:24 +0x3d
+panic({0x5fda80, 0xc000012870})
+	/usr/local/go/src/runtime/panic.go:838 +0x207
+demo/database1.Initdb({0xc00001c2a0, 0x24})
+	/root/gowork/src/demo/database1/gamedb.go:20 +0x15f
+main.main()
+	/root/gowork/src/demo/main.go:43 +0x2c5
+
+2023-08-10 10:13:28 INFO [demo/main.go:39] -map[gamedb:rootJMqs5555@tcp(localhost:3306)test logDir:./rizhi]
+2023-08-10 10:13:28 INFO [demo/main.go:40] -测试测试再次
+2023-08-10 10:13:28 ERROR [demo/main.go:41] -再次测试错误，是否正确运行
+2023-08-10 10:13:28 INFO [demo/main.go:24] -invalid DSN: missing the slash separating the database name
+goroutine 1 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x65
+main.main.func1()
+	/root/gowork/src/demo/main.go:24 +0x3d
+panic({0x5fda80, 0xc000012870})
+	/usr/local/go/src/runtime/panic.go:838 +0x207
+demo/database1.Initdb({0xc00001c2a0, 0x24})
+	/root/gowork/src/demo/database1/gamedb.go:20 +0x15f
+main.main()
+	/root/gowork/src/demo/main.go:43 +0x2c5
+
+2023-08-10 10:14:53 INFO [demo/main.go:39] -map[gamedb:rootJMqs5555@tcp(localhost:3306)test logDir:./rizhi]
+2023-08-10 10:14:53 INFO [demo/main.go:40] -测试测试再次
+2023-08-10 10:14:53 ERROR [demo/main.go:41] -再次测试错误，是否正确运行
+2023-08-10 10:14:53 INFO [demo/main.go:43] -rootJMqs5555@tcp(localhost:3306)test
+2023-08-10 10:14:53 INFO [demo/main.go:24] -invalid DSN: missing the slash separating the database name
+goroutine 1 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x65
+main.main.func1()
+	/root/gowork/src/demo/main.go:24 +0x3d
+panic({0x5fda80, 0xc000092820})
+	/usr/local/go/src/runtime/panic.go:838 +0x207
+demo/database1.Initdb({0xc00009a240, 0x24})
+	/root/gowork/src/demo/database1/gamedb.go:20 +0x15f
+main.main()
+	/root/gowork/src/demo/main.go:44 +0x305
+
+2023-08-10 10:15:57 INFO [demo/main.go:39] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-10 10:15:57 INFO [demo/main.go:40] -测试测试再次
+2023-08-10 10:15:57 ERROR [demo/main.go:41] -再次测试错误，是否正确运行
+2023-08-10 10:15:57 INFO [demo/main.go:43] -root:JMqs5555@tcp(localhost:3306)/test
+2023-08-10 10:16:07 INFO [demo/main.go:62] -成功退出

@@ -1,0 +1,40 @@
+2023-08-11 10:09:01 INFO [demo/main.go:42] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-11 10:09:01 INFO [demo/main.go:43] -测试测试再次
+2023-08-11 10:09:01 ERROR [demo/main.go:44] -再次测试错误，是否正确运行
+2023-08-11 10:09:01 INFO [demo/main.go:25] -dial tcp 127.0.0.1:3306: connect: connection refused
+goroutine 1 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x65
+main.main.func1()
+	/root/gowork/src/demo/main.go:25 +0x3d
+panic({0x769720, 0xc000072ff0})
+	/usr/local/go/src/runtime/panic.go:838 +0x207
+demo/database.Initdb({0xc00010a060?, 0x7?})
+	/root/gowork/src/demo/database/gamedb.go:21 +0xf0
+main.main()
+	/root/gowork/src/demo/main.go:47 +0x2c5
+
+2023-08-11 21:08:05 INFO [demo/main.go:42] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-11 21:08:05 INFO [demo/main.go:43] -测试测试再次
+2023-08-11 21:08:05 ERROR [demo/main.go:44] -再次测试错误，是否正确运行
+2023-08-11 21:12:03 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-11 21:12:03 INFO [demo/main.go:44] -测试测试再次
+2023-08-11 21:12:03 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-11 21:32:13 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-11 21:32:13 INFO [demo/main.go:44] -测试测试再次
+2023-08-11 21:32:13 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-11 21:49:24 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-11 21:49:24 INFO [demo/main.go:44] -测试测试再次
+2023-08-11 21:49:24 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-11 22:15:38 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-11 22:15:38 INFO [demo/main.go:44] -测试测试再次
+2023-08-11 22:15:38 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-11 22:15:39 INFO [routers/router.go:15] -GET / demo/routers.SetupRouter.func2 3
+2023-08-11 22:17:44 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-11 22:17:44 INFO [demo/main.go:44] -测试测试再次
+2023-08-11 22:17:44 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-11 22:17:45 INFO [routers/router.go:15] -GET / demo/routers.SetupRouter.func2 3
+2023-08-11 23:46:49 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-11 23:46:49 INFO [demo/main.go:44] -测试测试再次
+2023-08-11 23:46:49 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-11 23:46:49 INFO [routers/router.go:15] -GET / demo/routers.SetupRouter.func2 3

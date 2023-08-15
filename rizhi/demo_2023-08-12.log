@@ -1,0 +1,113 @@
+2023-08-12 00:32:36 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-12 00:32:36 INFO [demo/main.go:44] -测试测试再次
+2023-08-12 00:32:36 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-12 00:45:48 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-12 00:45:48 INFO [demo/main.go:44] -测试测试再次
+2023-08-12 00:45:48 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-12 00:46:53 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-12 00:46:54 INFO [demo/main.go:44] -测试测试再次
+2023-08-12 00:46:54 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-12 01:21:23 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-12 01:21:23 INFO [demo/main.go:44] -测试测试再次
+2023-08-12 01:21:23 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-12 01:22:01 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:22:01 state:200 ClientIp:220.198.246.185 path:/
+2023-08-12 01:22:03 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:22:03 state:200 ClientIp:220.198.246.185 path:/
+2023-08-12 01:22:08 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:22:08 state:200 ClientIp:220.198.246.185 path:/
+2023-08-12 01:22:08 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:22:08 state:404 ClientIp:220.198.246.185 path:/favicon.ico
+2023-08-12 01:32:27 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:32:27 state:200 ClientIp:220.198.246.185 path:/
+2023-08-12 01:37:27 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-12 01:37:28 INFO [demo/main.go:44] -测试测试再次
+2023-08-12 01:37:28 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-12 01:37:28 INFO [gin@v1.6.3/debug.go:55] -[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+
+2023-08-12 01:37:28 INFO [gin@v1.6.3/debug.go:55] -[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+
+2023-08-12 01:38:14 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:38:14 | 200 |    9.627187ms | 220.198.246.185 | GET      "/"
+
+2023-08-12 01:38:14 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:38:14 state:200 ClientIp:220.198.246.185 path:/
+2023-08-12 01:38:15 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:38:15 | 200 |      23.824µs | 220.198.246.185 | GET      "/"
+
+2023-08-12 01:38:15 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:38:15 state:200 ClientIp:220.198.246.185 path:/
+2023-08-12 01:38:15 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:38:15 | 404 |         960ns | 220.198.246.185 | GET      "/favicon.ico"
+
+2023-08-12 01:38:15 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:38:15 state:404 ClientIp:220.198.246.185 path:/favicon.ico
+2023-08-12 01:39:04 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:39:04 | 200 |      30.727µs | 220.198.246.185 | GET      "/"
+
+2023-08-12 01:39:04 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:39:04 state:200 ClientIp:220.198.246.185 path:/
+2023-08-12 01:41:14 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:41:09 | 200 |  959.397442ms | 220.198.246.185 | GET      "/"
+
+2023-08-12 01:41:14 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:41:09 state:200 ClientIp:220.198.246.185 path:/
+2023-08-12 01:41:16 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:41:16 | 404 |       1.957µs | 220.198.246.185 | GET      "/favicon.ico"
+
+2023-08-12 01:41:16 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:41:16 state:404 ClientIp:220.198.246.185 path:/favicon.ico
+2023-08-12 01:45:35 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-12 01:45:35 INFO [demo/main.go:44] -测试测试再次
+2023-08-12 01:45:35 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-12 01:45:35 INFO [gin@v1.6.3/debug.go:55] -[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+
+2023-08-12 01:45:35 INFO [gin@v1.6.3/debug.go:55] -[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+
+2023-08-12 01:45:56 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:45:56 | 200 |      62.726µs |   213.231.4.178 | GET      "/"
+
+2023-08-12 01:45:56 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:45:56 state:200 ClientIp:213.231.4.178 path:/
+2023-08-12 01:46:00 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:46:00 | 200 |       8.718µs | 220.198.246.185 | GET      "/"
+
+2023-08-12 01:46:00 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:46:00 state:200 ClientIp:220.198.246.185 path:/
+2023-08-12 01:46:01 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:46:01 | 404 |         716ns | 220.198.246.185 | GET      "/favicon.ico"
+
+2023-08-12 01:46:01 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:46:01 state:404 ClientIp:220.198.246.185 path:/favicon.ico
+2023-08-12 01:46:06 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:46:06 | 200 |      13.377µs | 220.198.246.185 | GET      "/"
+
+2023-08-12 01:46:06 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:46:06 state:200 ClientIp:220.198.246.185 path:/
+2023-08-12 01:46:06 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:46:06 | 404 |       1.395µs | 220.198.246.185 | GET      "/favicon.ico"
+
+2023-08-12 01:46:06 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:46:06 state:404 ClientIp:220.198.246.185 path:/favicon.ico
+2023-08-12 01:46:08 INFO [demo/main.go:70] -成功退出
+2023-08-12 01:46:08 INFO [demo/main.go:27] -成功推出！！！
+2023-08-12 01:46:28 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-12 01:46:28 INFO [demo/main.go:44] -测试测试再次
+2023-08-12 01:46:28 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-12 01:46:28 INFO [gin@v1.6.3/debug.go:55] -[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+
+2023-08-12 01:46:28 INFO [gin@v1.6.3/debug.go:55] -[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+
+2023-08-12 01:46:32 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:46:32 | 200 |      14.592µs | 220.198.246.185 | GET      "/"
+
+2023-08-12 01:46:32 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:46:32 state:200 ClientIp:220.198.246.185 path:/
+2023-08-12 01:46:32 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 01:46:32 | 404 |         481ns | 220.198.246.185 | GET      "/favicon.ico"
+
+2023-08-12 01:46:32 INFO [gin@v1.6.3/logger.go:270] -测试log HHHH [GIN] 2023-08-12 01:46:32 state:404 ClientIp:220.198.246.185 path:/favicon.ico
+2023-08-12 01:46:37 INFO [demo/main.go:70] -成功退出
+2023-08-12 01:46:37 INFO [demo/main.go:27] -成功推出！！！
+2023-08-12 03:16:17 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-12 03:16:17 INFO [demo/main.go:44] -测试测试再次
+2023-08-12 03:16:17 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-12 03:17:02 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 03:17:02 | 200 |      27.867µs | 220.198.246.185 | GET      "/"
+
+2023-08-12 03:17:02 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 03:17:02 | 404 |         501ns | 220.198.246.185 | GET      "/favicon.ico"
+
+2023-08-12 03:17:03 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 03:17:03 | 200 |       8.566µs | 220.198.246.185 | GET      "/"
+
+2023-08-12 03:17:03 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 03:17:03 | 404 |         381ns | 220.198.246.185 | GET      "/favicon.ico"
+
+2023-08-12 03:17:04 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 03:17:04 | 200 |        6.46µs | 220.198.246.185 | GET      "/"
+
+2023-08-12 03:17:04 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 03:17:04 | 404 |         451ns | 220.198.246.185 | GET      "/favicon.ico"
+
+2023-08-12 03:28:29 INFO [demo/main.go:43] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test logDir:./rizhi]
+2023-08-12 03:28:29 INFO [demo/main.go:44] -测试测试再次
+2023-08-12 03:28:29 ERROR [demo/main.go:45] -再次测试错误，是否正确运行
+2023-08-12 03:33:28 INFO [gin@v1.6.3/logger.go:269] -[GIN] 2023/08/12 - 03:33:28 | 200 |      10.843µs |  205.210.31.170 | GET      "/"
+

@@ -1,0 +1,35 @@
+2023-08-04 17:28:59 INFO [demo/main.go:14] -HHHHH
+2023-08-04 17:28:59 ERROR [demo/main.go:15] -error:该错误为测试错误
+2023-08-04 17:30:13 INFO [demo/main.go:14] -测试测试再次
+2023-08-04 17:30:13 ERROR [demo/main.go:15] -再次测试错误，是否正确运行
+2023-08-04 17:42:17 INFO [demo/main.go:21] -测试测试再次
+2023-08-04 17:42:17 ERROR [demo/main.go:22] -再次测试错误，是否正确运行
+2023-08-04 17:42:54 INFO [demo/main.go:21] -测试测试再次
+2023-08-04 17:42:54 ERROR [demo/main.go:22] -再次测试错误，是否正确运行
+2023-08-04 17:45:37 INFO [demo/main.go:21] -测试测试再次
+2023-08-04 17:45:37 ERROR [demo/main.go:22] -再次测试错误，是否正确运行
+2023-08-04 17:45:51 INFO [demo/main.go:21] -测试测试再次
+2023-08-04 17:45:51 ERROR [demo/main.go:22] -再次测试错误，是否正确运行
+2023-08-04 17:47:17 INFO [demo/main.go:21] -测试测试再次
+2023-08-04 17:47:17 ERROR [demo/main.go:22] -再次测试错误，是否正确运行
+2023-08-04 17:49:23 INFO [demo/main.go:21] -测试测试再次
+2023-08-04 17:49:23 ERROR [demo/main.go:22] -再次测试错误，是否正确运行
+2023-08-04 17:49:26 INFO [demo/main.go:40] -成功退出
+2023-08-04 17:51:45 INFO [demo/main.go:28] -测试测试再次
+2023-08-04 17:51:45 ERROR [demo/main.go:29] -再次测试错误，是否正确运行
+2023-08-04 17:51:47 INFO [demo/main.go:47] -成功退出
+2023-08-04 17:51:47 INFO [demo/main.go:21] -测试异常
+goroutine 1 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x65
+main.main.func1()
+	/root/gowork/src/demo/main.go:21 +0x3d
+panic({0x4f0880, 0x532f98})
+	/usr/local/go/src/runtime/panic.go:838 +0x207
+main.main()
+	/root/gowork/src/demo/main.go:48 +0x25f
+
+2023-08-04 18:22:55 INFO [demo/main.go:38] -map[logDir:./rizhi]
+2023-08-04 18:22:55 INFO [demo/main.go:39] -测试测试再次
+2023-08-04 18:22:55 ERROR [demo/main.go:40] -再次测试错误，是否正确运行
+2023-08-04 18:23:04 INFO [demo/main.go:58] -成功退出

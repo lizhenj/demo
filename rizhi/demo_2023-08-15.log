@@ -1,0 +1,5 @@
+2023-08-15 00:14:33 INFO [demo/main.go:44] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test ginIpaddress:0.0.0.0:8080 logDir:./rizhi]
+2023-08-15 00:14:42 INFO [gin@v1.6.3/logger.go:270] -[GIN] 2023/08/15 - 00:14:42 | 404 |         598ns |    112.94.74.88 | GET      "/todo/get"
+2023-08-15 00:15:30 INFO [gin@v1.6.3/logger.go:270] -[GIN] 2023/08/15 - 00:15:30 | 200 |      32.031µs |    112.94.74.88 | GET      "/"
+2023-08-15 00:17:05 INFO [gin@v1.6.3/logger.go:270] -[GIN] 2023/08/15 - 00:17:05 | 404 |       1.933µs |  45.128.232.125 | CONNECT  ""
+2023-08-15 00:21:01 INFO [demo/main.go:44] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test ginIpaddress:0.0.0.0:8080 logDir:./rizhi]
