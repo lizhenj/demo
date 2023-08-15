@@ -44,13 +44,14 @@ func main() {
 	log.Infof("%v", config)
 
 	//启动数据库
-	database.Initdb(config["gamedb"])
+	database.InitDb(config["gamedb"])
 
 	//启动gin
 	routers.InitRouter(config["ginIpaddress"])
 	//初始化路由
 	service.InitServices()
 
+	log.Infof("----------demo runing---------")
 	go func() {
 		for {
 			var s string

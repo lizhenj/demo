@@ -3,3 +3,54 @@
 2023-08-15 00:15:30 INFO [gin@v1.6.3/logger.go:270] -[GIN] 2023/08/15 - 00:15:30 | 200 |      32.031µs |    112.94.74.88 | GET      "/"
 2023-08-15 00:17:05 INFO [gin@v1.6.3/logger.go:270] -[GIN] 2023/08/15 - 00:17:05 | 404 |       1.933µs |  45.128.232.125 | CONNECT  ""
 2023-08-15 00:21:01 INFO [demo/main.go:44] -map[gamedb:root:JMqs5555@tcp(localhost:3306)/test ginIpaddress:0.0.0.0:8080 logDir:./rizhi]
+2023-08-15 21:58:57 INFO [demo/main.go:44] -map[gamedb:root:jmqs555@tcp(localhost:3306)/test ginIpaddress:0.0.0.0:9090 logDir:./rizhi]
+2023-08-15 21:58:57 INFO [routers/router.go:35] -SetUpRouter method: GET, path: /todo/get
+2023-08-15 21:58:57 INFO [routers/router.go:35] -SetUpRouter method: POST, path: /todo/post
+2023-08-15 21:58:57 INFO [routers/router.go:35] -SetUpRouter method: DEL, path: /todo/del
+2023-08-15 21:58:57 INFO [service/service.go:12] -InitServices success!!
+2023-08-15 21:59:07 INFO [demo/main.go:30] -demo exit!!
+2023-08-15 22:11:36 INFO [demo/main.go:44] -map[gamedb:root:jmqs555@tcp(localhost:3306)/test ginIpaddress:0.0.0.0:9090 logDir:./rizhi]
+2023-08-15 22:11:36 INFO [routers/router.go:35] -SetUpRouter method: GET, path: /todo/get
+2023-08-15 22:11:36 INFO [routers/router.go:35] -SetUpRouter method: POST, path: /todo/post
+2023-08-15 22:11:36 INFO [routers/router.go:35] -SetUpRouter method: DEL, path: /todo/del
+2023-08-15 22:11:36 INFO [demo/main.go:54] -----------demo runing---------
+2023-08-15 22:13:00 INFO [demo/main.go:44] -map[gamedb:root:jmqs555@tcp(localhost:3306)/test ginIpaddress:0.0.0.0:9090 logDir:./rizhi]
+2023-08-15 22:13:00 INFO [routers/router.go:35] -SetUpRouter method: GET, path: /todo/get
+2023-08-15 22:13:00 INFO [routers/router.go:35] -SetUpRouter method: POST, path: /todo/post
+2023-08-15 22:13:00 INFO [routers/router.go:35] -SetUpRouter method: DEL, path: /todo/del
+2023-08-15 22:13:00 INFO [demo/main.go:54] -----------demo runing---------
+2023-08-15 22:13:25 INFO [gin@v1.6.3/logger.go:268] -[GIN] 2023/08/15 - 22:13:25 | 200 |            0s |       127.0.0.1 | POST     "/todo/post"
+
+2023-08-15 22:13:36 INFO [gin@v1.6.3/logger.go:268] -[GIN] 2023/08/15 - 22:13:36 | 200 |            0s |       127.0.0.1 | DELETE   "/todo/del"
+
+2023-08-15 23:46:42 INFO [demo/main.go:44] -map[gamedb:root:jmqs555@tcp(localhost:3306)/test ginIpaddress:0.0.0.0:9090 logDir:./rizhi]
+2023-08-15 23:46:42 INFO [routers/router.go:35] -SetUpRouter method: GET, path: /todo/get
+2023-08-15 23:46:42 INFO [routers/router.go:35] -SetUpRouter method: POST, path: /todo/post
+2023-08-15 23:46:42 INFO [routers/router.go:35] -SetUpRouter method: DEL, path: /todo/del
+2023-08-15 23:46:42 INFO [demo/main.go:54] -----------demo runing---------
+2023-08-15 23:56:30 INFO [demo/main.go:44] -map[gamedb:root:jmqs555@tcp(localhost:3306)/test ginIpaddress:0.0.0.0:9090 logDir:./rizhi]
+2023-08-15 23:56:30 INFO [routers/router.go:35] -SetUpRouter method: GET, path: /todo/get
+2023-08-15 23:56:30 INFO [routers/router.go:35] -SetUpRouter method: POST, path: /todo/post
+2023-08-15 23:56:30 INFO [routers/router.go:35] -SetUpRouter method: DEL, path: /todo/del
+2023-08-15 23:56:30 INFO [demo/main.go:54] -----------demo runing---------
+2023-08-15 23:57:01 ERROR [database/gamedb.go:56] -InsertActor failed,err: sql: converting argument $1 type: unsupported type []interface {}, a slice of interface
+2023-08-15 23:57:01 INFO [gin@v1.6.3/logger.go:268] -[GIN] 2023/08/15 - 23:57:01 | 400 |       593.9µs |       127.0.0.1 | GET      "/todo/get?id=555&&base=%22HHHHceshi%22"
+
+2023-08-15 23:57:32 ERROR [database/gamedb.go:56] -InsertActor failed,err: sql: converting argument $1 type: unsupported type []interface {}, a slice of interface
+2023-08-15 23:57:32 INFO [gin@v1.6.3/logger.go:268] -[GIN] 2023/08/15 - 23:57:32 | 400 |   17.3775755s |       127.0.0.1 | GET      "/todo/get?id=555&&base=%22HHHHceshi%22"
+
+2023-08-15 23:58:25 INFO [demo/main.go:44] -map[gamedb:root:jmqs555@tcp(localhost:3306)/test ginIpaddress:0.0.0.0:9090 logDir:./rizhi]
+2023-08-15 23:58:25 INFO [routers/router.go:35] -SetUpRouter method: GET, path: /todo/get
+2023-08-15 23:58:25 INFO [routers/router.go:35] -SetUpRouter method: POST, path: /todo/post
+2023-08-15 23:58:25 INFO [routers/router.go:35] -SetUpRouter method: DEL, path: /todo/del
+2023-08-15 23:58:25 INFO [demo/main.go:54] -----------demo runing---------
+2023-08-15 23:58:34 ERROR [database/gamedb.go:56] -InsertActor failed,err: sql: converting argument $1 type: unsupported type []interface {}, a slice of interface
+2023-08-15 23:58:34 INFO [gin@v1.6.3/logger.go:268] -[GIN] 2023/08/15 - 23:58:34 | 400 |      6.36561s |       127.0.0.1 | GET      "/todo/get?id=555&&base=%22HHHHceshi%22"
+
+2023-08-15 23:59:35 INFO [demo/main.go:44] -map[gamedb:root:jmqs555@tcp(localhost:3306)/test ginIpaddress:0.0.0.0:9090 logDir:./rizhi]
+2023-08-15 23:59:35 INFO [routers/router.go:35] -SetUpRouter method: GET, path: /todo/get
+2023-08-15 23:59:35 INFO [routers/router.go:35] -SetUpRouter method: POST, path: /todo/post
+2023-08-15 23:59:35 INFO [routers/router.go:35] -SetUpRouter method: DEL, path: /todo/del
+2023-08-15 23:59:35 INFO [demo/main.go:54] -----------demo runing---------
+2023-08-15 23:59:42 INFO [gin@v1.6.3/logger.go:268] -[GIN] 2023/08/15 - 23:59:42 | 200 |    2.8376323s |       127.0.0.1 | GET      "/todo/get?id=555&&base=%22HHHHceshi%22"
+

@@ -23,18 +23,19 @@ func InitRouter(iad string) {
 		c.String(http.StatusOK, "Hello World!")
 	})
 
-	r.Run(iad)
+	go func() {
+		r.Run(iad)
+	}()
+
 }
 
-func SetUpRouter(method string, path string) {
+func SetUpRouter(method string, path string, acFunc func(*gin.Context)) {
 	method = strings.ToUpper(method)
 
 	log.Infof("SetUpRouter method: %s, path: %s", method, path)
 	switch method {
 	case "GET":
-		r.GET(path, func(c *gin.Context) {
-			c.JSON(http.StatusOK, gin.H{"method": method})
-		})
+		r.GET(path, acFunc)
 	case "POST":
 		r.POST(path, func(c *gin.Context) {
 			c.JSON(http.StatusOK, gin.H{"method": method})
